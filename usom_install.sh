@@ -12,4 +12,4 @@ crontab -l > /root/USOM/cron.bck
 crontab -l | { cat; echo -e "\n# USOM list update\n5 * * * * /bin/bash /root/USOM/usom_update.sh >/dev/null 2>&1"; } | crontab -
 
 cd /opt/qradar/bin
-./ReferenceDataUtil.sh create usom_url_list MAP ALN
+./ReferenceDataUtil.sh create usom_url_list SET ALN
