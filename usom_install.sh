@@ -4,7 +4,7 @@
 mkdir /root/USOM
 cd /root/USOM/
 
-wget update.sh 
+wget https://raw.githubusercontent.com/semsaksoy/qradar_usom/master/usom_update.sh 
 
 
 #cron
