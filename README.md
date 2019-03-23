@@ -1,7 +1,7 @@
 # Qradar USOM Integration
 
 ["USOM"](https://www.usom.gov.tr/)  is a cyber intelligence sharing platform provided by the goverment of Turkey.
-"USOM" regularly publishes malicious sites and this tiny project provides that published lists are store and keep it up to date in the reference set for use in qradar rules.
+"USOM" regularly publishes malicious sites and this tiny project, provides that store list and keep it up to date in the reference set for use in qradar rules.
 
 
 ## Installation
