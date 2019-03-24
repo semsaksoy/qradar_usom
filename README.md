@@ -1,11 +1,11 @@
 # Qradar USOM Integration
 
-["USOM"](https://www.usom.gov.tr/) is a cyber intelligence sharing platform provided by Turkey's government. USOM publishes malicious sites when it detected so that  this  project ensures that the list is stored in the reference set and kept up to date in order to be used in qradar rules.
+["USOM"](https://www.usom.gov.tr/) is a cyber intelligence sharing platform provided by Turkey's government. USOM publishes malicious sites when it detected so that  this  project ensures that the list is stored in the reference set and kept up to date in order to be used in QRadar rules.
 
 
 ## Installation
 
-The project dont needs download just run the following line with the root account on the qradar cli.
+The project doesn't need any dependencies, just run the following command on the QRadar CLI as root.
 
 `bash <(curl -s https://raw.githubusercontent.com/semsaksoy/qradar_usom/master/usom_install.sh)`
 
